@@ -1,75 +1,75 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100%;
-  }
+  height: 100%;
+}
 
 body {
-    margin:0;
-    padding:0;
-    background: linear-gradient(#141e30, #243b55);
-  }
+  margin:0;
+  padding:0;
+  background: linear-gradient(#141e30, #243b55);
+}
 
-  .name-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    padding: 60px 0 50px;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
-  }
+.name-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 60px 0 50px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
 
-  .name-box input {
-    width: 90%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #ffffff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    outline: none;
-    background: transparent;
-  }
+.name-box input {
+  width: 90%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+}
 
-  .name-box button {
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    color: #ffffff;
-    background: #03e9f4;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 60px;
-    letter-spacing: 4px;
-    transition-duration: 1s;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4;
-  }
-  
-  .name-box button:hover {
-    box-shadow: 0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
-  }
+.name-box button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background: #03e9f4;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  letter-spacing: 4px;
+  transition-duration: 1s;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4;
+}
 
-  .name-box span {
-    color: #03e9f4;
-    font-size: 24px;
-  }
-  
+.name-box button:hover {
+  box-shadow: 0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.name-box span {
+  color: #03e9f4;
+  font-size: 24px;
+}
+
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .visible {
-    display: block;
+  display: block;
 }
